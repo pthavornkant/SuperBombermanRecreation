@@ -1,0 +1,168 @@
+﻿Build started 9/9/2013 3:40:28 PM.
+     1>Project "C:\Users\Pentao\Desktop\Program Work\Past Work\OOP\Super Bomberman\Super Bomberman\glutapp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ifreeglut /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\glutapp_Debug\\" /Fd"obj\glutapp_Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt app_main.cpp app_window.cpp Block.cpp Character.cpp EntityPowerupBlast.cpp EntityPowerupBomb.cpp EntityPowerupSkull.cpp EntityPowerupSpeed.cpp PlayerNPC.cpp Entity.cpp EntityBomb.cpp EntitydBlock.cpp EntityFire.cpp GameWindow.cpp glut_window.cpp Player.cpp TextureHandler.cpp World.cpp
+         app_main.cpp
+         app_window.cpp
+         Block.cpp
+         Character.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(165): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(181): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(202): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(207): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(231): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(245): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\character.cpp(380): warning C4305: '+=' : truncation from 'double' to 'float'
+         EntityPowerupBlast.cpp
+         EntityPowerupBomb.cpp
+         EntityPowerupSkull.cpp
+         EntityPowerupSpeed.cpp
+         PlayerNPC.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(95): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(111): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(201): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(203): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(207): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(219): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(257): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(296): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(297): warning C4244: 'argument' : conversion from 'float' to 'char', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(305): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(315): warning C4244: 'argument' : conversion from 'float' to 'char', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(333): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\playernpc.cpp(352): warning C4018: '<' : signed/unsigned mismatch
+         Entity.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entity.cpp(78): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+         EntityBomb.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(59): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(62): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(65): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(76): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(79): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(106): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(112): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(118): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(121): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(149): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(152): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(155): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(161): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(164): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(193): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(196): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(199): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(205): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(208): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(235): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(238): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entitybomb.cpp(241): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         EntitydBlock.cpp
+         EntityFire.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entityfire.cpp(19): warning C4309: '=' : truncation of constant value
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entityfire.cpp(30): warning C4309: '=' : truncation of constant value
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\entityfire.cpp(41): warning C4309: '=' : truncation of constant value
+         GameWindow.cpp
+         glut_window.cpp
+         Player.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\player.cpp(34): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\player.cpp(35): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\player.cpp(96): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\player.cpp(97): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         TextureHandler.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\texturehandler.cpp(23): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\texturehandler.cpp(24): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\texturehandler.cpp(28): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\texturehandler.cpp(29): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         World.cpp
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(34): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(34): warning C4101: 'j' : unreferenced local variable
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(52): warning C4154: deletion of an array expression; conversion to pointer supplied
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(74): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(90): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(632): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(642): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(653): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(655): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(658): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(673): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(675): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(678): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(711): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\world.cpp(725): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ifreeglut /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\glutapp_Debug\\" /Fd"obj\glutapp_Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt image_DXT.c image_helper.c SOIL.c stb_image_aug.c
+         image_DXT.c
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_dxt.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         image_helper.c
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_helper.c(325): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_helper.c(366): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_helper.c(373): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_helper.c(415): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\image_helper.c(422): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         SOIL.c
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\soil.c(1719): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\soil.c(1729): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\soil.c(1841): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         stb_image_aug.c
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(1557): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(2394): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(2709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(2995): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(3209): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(3548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stb_image_aug.c(3644): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stbi_dds_aug_c.h(362): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stbi_dds_aug_c.h(366): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stbi_dds_aug_c.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stbi_dds_aug_c.h(427): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pentao\desktop\program work\past work\oop\super bomberman\super bomberman\stbi_dds_aug_c.h(498): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"obj\glutapp_Debug\glutapp.exe" /NOLOGO freeglut/freeglut.lib bass.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"obj\glutapp_Debug\glutapp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"obj\glutapp_Debug\glutapp.lib" /MACHINE:X86 /SAFESEH:NO obj\glutapp_Debug\app_main.obj
+         obj\glutapp_Debug\app_window.obj
+         obj\glutapp_Debug\Block.obj
+         obj\glutapp_Debug\Character.obj
+         obj\glutapp_Debug\EntityPowerupBlast.obj
+         obj\glutapp_Debug\EntityPowerupBomb.obj
+         obj\glutapp_Debug\EntityPowerupSkull.obj
+         obj\glutapp_Debug\EntityPowerupSpeed.obj
+         obj\glutapp_Debug\PlayerNPC.obj
+         obj\glutapp_Debug\Entity.obj
+         obj\glutapp_Debug\EntityBomb.obj
+         obj\glutapp_Debug\EntitydBlock.obj
+         obj\glutapp_Debug\EntityFire.obj
+         obj\glutapp_Debug\GameWindow.obj
+         obj\glutapp_Debug\glut_window.obj
+         obj\glutapp_Debug\image_DXT.obj
+         obj\glutapp_Debug\image_helper.obj
+         obj\glutapp_Debug\Player.obj
+         obj\glutapp_Debug\SOIL.obj
+         obj\glutapp_Debug\stb_image_aug.obj
+         obj\glutapp_Debug\TextureHandler.obj
+         obj\glutapp_Debug\World.obj
+         freeglut\freeglut.lib
+         glutapp.vcxproj -> C:\Users\Pentao\Desktop\Program Work\Past Work\OOP\Super Bomberman\Super Bomberman\obj\glutapp_Debug\glutapp.exe
+     1>Done Building Project "C:\Users\Pentao\Desktop\Program Work\Past Work\OOP\Super Bomberman\Super Bomberman\glutapp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.29
